@@ -145,11 +145,6 @@ body {
   padding-left: 10rem;
 }
 
-.hero-text {
-/*   font-size: 7rem; */
-/*   margin: -10px; */
-}
-
 /* button Animation */
 .wrapper {
   display: flex;
@@ -447,7 +442,7 @@ main.edu-row {
     padding-left: 150px;
   }
   .hero-text {
-    font-size: 5rem;
+    font-size: 3rem;
     /* margin: -10px; */
   }
   img {
