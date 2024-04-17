@@ -390,7 +390,7 @@ main.edu-row {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  body,html {
     /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
