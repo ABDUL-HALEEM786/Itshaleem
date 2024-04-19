@@ -473,7 +473,7 @@ main.edu-row {
   }
       /* skills page */
       .skills .row{
-        display: inline-block;
+        display:block;
        
     }
     .skill-container {
