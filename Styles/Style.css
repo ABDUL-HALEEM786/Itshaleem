@@ -145,6 +145,11 @@ body {
   padding-left: 10rem;
 }
 
+.hero-text {
+  font-size: 7rem;
+  /* margin: -10px; */
+}
+
 /* button Animation */
 .wrapper {
   display: flex;
@@ -375,14 +380,23 @@ main.edu-row {
   border: 1px solid transparent;
 }
 
+/* Projects Page  */
+#projects {
+  background-image: linear-gradient(to right bottom, #000000, #1c0312, #260725, #270c3f, #01195e);
+}
 
 
 
+
+
+
+
+/* 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
     margin: 0;
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   body,html {
@@ -442,8 +456,8 @@ main.edu-row {
     padding-left: 150px;
   }
   .hero-text {
-    font-size: 3rem;
-    /* margin: -10px; */
+    font-size: 2rem;
+    margin-right: 100px;
   }
   img {
     visibility: hidden;
@@ -459,10 +473,13 @@ main.edu-row {
   }
       /* skills page */
       .skills .row{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
+        display: inline-block;
+       
     }
+    .skill-container {
+        width: 90%;
+    }
+
 }
 .navTrigger {
   cursor: pointer;
