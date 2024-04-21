@@ -608,6 +608,16 @@ main.edu-row {
     /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
+
+  .nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+    top: 0;
+    background-color: #482b9b;
+  }
   .navTrigger {
     display: block;
   }
@@ -662,7 +672,7 @@ main.edu-row {
     align-items: center;
     color: white;
     column-gap: 27%;
-    padding-top: 17rem;
+    padding-top: 20rem;
     padding-left: 2rem;
   }
   .hero-section {
@@ -677,7 +687,7 @@ main.edu-row {
     visibility: hidden;
   }
   .wrapper {
-    padding-top: 10rem;
+    padding-top: 20rem;
   }
   main.row {
     grid-template-columns: 1fr;
